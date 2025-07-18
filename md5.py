@@ -8,7 +8,7 @@ import math
 from datetime import datetime
 from typing import Dict, List, Optional
 import os
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN")   
 
 
 try:
