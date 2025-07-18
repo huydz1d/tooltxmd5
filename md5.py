@@ -7,6 +7,9 @@ import time
 import math
 from datetime import datetime
 from typing import Dict, List, Optional
+import os
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
 
 try:
     from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
